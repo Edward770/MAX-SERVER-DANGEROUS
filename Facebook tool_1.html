@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Max Rulex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    #items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff !important;
+    }
+    .items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff !important;
+    }
+    .text {
+      width: 85vmin;
+      height: 40vh;
+      border-radius: 10px;
+      margin-top: 10px;
+      box-shadow: 0 0 10px #ffffff;
+      border: none;
+      resize: none;
+      opacity: 0.5;
+      color: #000000 !important;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      overflow-x: hidden;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Tabahi Rulex</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+          <li class="nav-item dropdown">
+            <a id="convo" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <i class="fa-brands fa-rocketchat"></i> <span style="margin-left: 10px;">Convo</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/appstateconvo/dashboard">Appstate Convo Tool</a></li>
+              <li><a class="dropdown-item" href="/tokenmulticonvo/dashboard">Multi Token Convo Tool</a></li>
+              <li><a class="dropdown-item" href="/tokenconvo/dashboard">Token Convo</a></li>
+              <li><a class="dropdown-item" href="/stickerinbox/dashboard">Sticker Convo Tool</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="post" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <i class="fa-solid fa-comments"></i> <span style="margin-left: 10px;">Post</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/appstatepost/dashboard">Appstate Post Tool</a></li>
+              <li><a class="dropdown-item" href="/tokenpost/dashboard">Token Post Tool</a></li>
+              <li><a class="dropdown-item" href="/tokenmultipost/dashboard">Multi Token Post Tool</a></li>
+              <li><a class="dropdown-item" href="/urlappstatepost/dashboard">Bookmarks Appstate Post Tool</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a id="generator" class="nav-link active" href="/generator">
+              <i class="fa-solid fa-cookie-bite"></i><span style="margin-left: 10px;">Token Generator</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="pricing" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <i class="fa-solid fa-dollar-sign"></i><span style="margin-left: 10px;">Pricing</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">1500 INR / 3 Month</a></li>
+              <li><a class="dropdown-item" href="#">2000 INR / 6 Month</a></li>
+              <li><a class="dropdown-item" href="#">3000 INR / 1 Year</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.facebook.com/K9SHI.SHON9.IZ.H3R3">
+              <i class="fa-solid fa-address-book"></i><span style="margin-left: 10px;">Contact Support</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="particles-js" style="height: 100vh; width: 100vw;">
+    <div id="items">
+      <div style="border-radius: 20px; box-shadow: 0 0 20px #ffffff; height: 87vh; width: 95vmin; padding-top: 5px; margin-top: 120vh; position: absolute;">
+        <h2 style="text-align: center; margin-top: 10px;"><strong>Facebook Tool by Max Rulex</strong></h2>
+        <hr>
+        <p style="text-align: center; font-size: 1.3em;">Welcome! All features are unlocked.</p>
+        <hr>
+        <p style="text-align: center; font-size: 1.1em;">No key required. Enjoy using the tool freely.</p>
+        <hr>
+        <p style="text-align: center;"><strong>Contact Support if you need help.</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', "dark.json", function() {});
+  </script>
+</body>
+</html>
